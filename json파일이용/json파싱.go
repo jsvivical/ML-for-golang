@@ -62,8 +62,7 @@ func main() {
 	if err := json.Unmarshal(body, &sd); err != nil {
 		log.Fatal(err)
 	}
-	//첫번째 정류장 정보를 출력한다.
-
+	//전체 정보 출력
 	for _, v := range sd.Data.Stations {
 		fmt.Println(v)
 	}

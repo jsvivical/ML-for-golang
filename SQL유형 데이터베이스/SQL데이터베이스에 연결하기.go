@@ -25,6 +25,7 @@ func main() {
 	//Ping메소드를 사용할 수 있음
 	if err := db.Ping(); err != nil {
 		log.Fatal(err)
+
 	}
 
 }

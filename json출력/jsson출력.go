@@ -61,7 +61,6 @@ func main() {
 	if err := json.Unmarshal(body, &sd); err != nil {
 		log.Fatal(err)
 	}
-	//첫번째 정류장 정보를 출력한다.
 	outputData, err := json.Marshal(sd)
 	if err != nil {
 		log.Fatal(err)
