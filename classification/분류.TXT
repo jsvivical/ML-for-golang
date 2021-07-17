@@ -1,0 +1,21 @@
+분류는 여러 범주 중에서 하나를 예측하는  머신 러닝 모델이 필요한 문제
+
+분류 모델 용어 이해하기 
+    범주(category), 레이블(label), 클래스(class) :  이 용어들을 수행하기 위해 다양한 개별적인 선택을 나타내기 위해 상호 교환적으로 사용된다.
+
+    이진 분류(binary classification ) 
+
+    다중 클래스 분류(Multi-class classification) 
+
+    레이블이 지정된 데이터 및 주석이 포함된 데이터 
+
+로지스틱 회귀분석
+    회귀분석을 기반으로 함
+
+    로지스틱 회귀분석은 간단하며 해석 가능한 모델로서 분류 문제를 해결할 때 첫 번째로 선택하기에 훌륭한 방법
+    github.com/xlvector/hector
+    github.com/cdipaolo/goml
+    github.com/sjwhitworth/golearn
+
+
+로지스틱 회귀분석 개요
